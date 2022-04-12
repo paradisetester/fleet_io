@@ -1,5 +1,7 @@
 Required operations to deploy the project: 
 
+Create .env file and copy and update content from .env.example file
+
 1. php artisan migrate:fresh --path=database/migrations/fleet_mcp --database=fleet_mcp --seed
 description: "mcp" database keeps the master enteries. This would route users as per their client. 
 
